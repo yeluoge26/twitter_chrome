@@ -6,4 +6,7 @@
  unzip twitter-crawler-master.zip
  cd twitter-crawler-master
  pip3 install -r  requirements.txt
- 
+ cd driver
+ chmod 777 chromedriver
+cd ..
+pip3 install youtube-dl
