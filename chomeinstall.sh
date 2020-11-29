@@ -4,3 +4,6 @@
  wget https://github.com/yeluoge26/centosinstall/blob/master/twitter-crawler-master.zip
  yum -y install unzip
  unzip twitter-crawler-master.zip
+ cd twitter-crawler-master
+ pip3 install -r  requirements.txt
+ 
